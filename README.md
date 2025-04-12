@@ -13,3 +13,10 @@ It supports:
 - Built-in cd with error handling
 
 ## Compile
+```
+gcc -Wall -Wextra -Werror microshell.c -o microshell
+```
+## Example Test
+```
+./microshell /bin/echo hello ";" /bin/ls "|" /usr/bin/grep microshell
+```
